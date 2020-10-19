@@ -1,1 +1,1 @@
-console.log("hello world");
+(()=>{"use strict";window.addEventListener("load",(async()=>{const n=document.getElementById("header");document.getElementById("content"),n.innerHTML=await'\n        <div class="header-main">\n            <div class="header-logo">\n                <h1>\n                    <a href="/">\n                        100tifi.co\n                    </a>\n                </h1>\n            </div>\n            <div class="header-nav">\n                <a href="#/about/">About</a>\n            </div>\n        </div>\n    '}))})();
